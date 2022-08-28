@@ -49,8 +49,8 @@
         "editor.wordWrapColumn": 120
     },
     // Other extensions
-    "codesnap.showWindowControls": false,
-    "codesnap.shutterAction": "copy",
+    "codesnap.showWindowControls": true,
+    "codesnap.shutterAction": "save",
     "editor.cursorSmoothCaretAnimation": true,
     "Workspace_Formatter.includePattern": ["*.rs"],
     "Workspace_Formatter.excludePattern": ["**/build", "**/.*", "**/.vscode"],
@@ -58,8 +58,10 @@
     "errorLens.delay": 1000,
     "errorLens.enabledDiagnosticLevels": ["error", "warning"],
     "errorLens.enabled": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
     "[rust]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "matklad.rust-analyzer"
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
     }
 }
