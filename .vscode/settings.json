@@ -2,7 +2,7 @@
     // Editor settings
     "editor.tabSize": 4,
     "editor.rulers": [80, 120],
-    "editor.renderWhitespace": "trailing",
+    // "editor.renderWhitespace": "trailing",
     "editor.suggestSelection": "first",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
